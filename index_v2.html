@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Logo Guess</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link 
+</head>
+<body>
+
+	<header>
+		<h1>Logo Guess</h1>
+	</header>
+	<div class='main' id='container'>
+		<div class='logo' ><img class='logo hidden' id='a1' src='images/a1.jpg'></div>
+		<div class='logo' ><img class='logo hidden' id='a2' src='images/a2.jpg'></div>
+		<div class='logo' ><img class='logo hidden' id='a3' src='images/a3.png'></div>
+		<div class='logo' ><img class='logo hidden' id='a4' src='images/a4.png'></div>
+		<div class='logo' ><img class='logo hidden' id='a5' src='images/a5.jpg'></div>
+		<div class='logo' ><img class='logo hidden' id='a6' src='images/a6.jpg'></div>
+	</div>
+	<div class='main'>
+	<p>Enter your guess...</p>
+	<input id="guess" class="form-control" type="text" name="guess" value="">
+	<button type="button" id="guessBtn" class="btn btn-primary">Submit Guess!</button>
+	</div>
+	<footer class="scoreboard">
+		<div><h2>Score:<span id="score">0</span></h2></div>
+		<div><h2>Timer:<span id="timer">0</span></h2></div>
+	</footer>
+</body>
+</html>

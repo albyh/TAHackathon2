@@ -1,0 +1,59 @@
+body{
+	background-color: #8c8c8c;
+}
+​
+.title{
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 2px 2px #F0F0F0;
+}
+​
+.playGame{
+	width: 100%;
+}
+​
+#textInput{
+	position: relative;
+	left: 41%;
+}
+#submitButton{
+	position: relative;
+	left: 45%;
+	margin-top: 1%;
+}
+​
+ul{
+	margin-top: 1%;
+	list-style: none;
+}
+​
+.imageBox{
+	height: 400px;
+	width: 400px;
+	border: 3px groove #000000;
+	position: relative;
+	left: 32%;
+}
+​
+.gameInfo{
+	float: left;
+	position: fixed;
+	top: 9%;
+	left: 1%;
+	width: 150px;
+	height: 150px;
+	border: 3px groove #000000;
+}
+​
+#counter{
+	position: relative;
+	width: 144px;
+	height: 72px;
+	border-bottom: 3px groove #000000;
+}
+​
+#timer{
+	position: relative;
+	width: 144px;
+	height: 72px;
+}

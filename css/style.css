@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+}
+
+#container{
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.main{
+	text-align: center;
+	align: center;
+}
+
+.scoreboard{
+	padding: 10px;
+	margin: 40px auto;
+	width: 300px;
+	border: 2px solid black;
+	background-color: cyan;
+}
+
+.red{
+	background-color: red;
+}
+
+.green{
+	background-color: green;
+}
+
+.logo{
+	width:100%;
+	height:auto;
+	align: middle;
+	vertical-align: middle;
+}
+
+.hidden{
+	display: none;
+	}
+
+#guess{
+	margin: auto;
+	width: 200px;
+}
