@@ -1,26 +1,18 @@
-body{
-	background-color: #8c8c8c;
-}
-​
-.title{
-	text-align: center;
-	color: #FFFFFF;
-	text-shadow: 2px 2px #F0F0F0;
-}
 ​
 .playGame{
 	width: 100%;
-}
+} 
 ​
 #textInput{
 	position: relative;
 	left: 41%;
 }
+
 #submitButton{
-	position: relative;
-	left: 45%;
-	margin-top: 1%;
-}
+  	position: relative;
+  	left: 45%;
+  	margin-top: 1%;
+  } 
 ​
 ul{
 	margin-top: 1%;
@@ -43,7 +35,7 @@ ul{
 	width: 150px;
 	height: 150px;
 	border: 3px groove #000000;
-}
+} 
 ​
 #counter{
 	position: relative;
@@ -56,4 +48,8 @@ ul{
 	position: relative;
 	width: 144px;
 	height: 72px;
+}
+
+h1 {
+	color: blue;
 }

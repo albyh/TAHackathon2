@@ -44,12 +44,13 @@ function loadImage(){
 	//load the image 
 	//.imageBox
 	console.log("imageload")
+	
 	//$('.imageBox').append("<img id='theImg' src=images[counter] />")
 	//$('#imageBack').append($('<img>',{id:'theImg',src:'a1.jpg'}) );
 	//$('#imageBackBox').style.backgroundImage = "url('a1.jpg')"
-    var img = document.createElement("IMG");
-    img.src = "a1.jpg";
-    $('#imageBack').html(img); 
+    //var img = document.createElement("IMG");
+    //img.src = "images/a1.jpg";
+    //$('#imageBack').html(img); 
 
 
 }
